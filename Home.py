@@ -11,6 +11,8 @@ def main():
     )
     if st.button("Go to App"):
         st.switch_page("pages/app.py")
+    if st.button("Go to Prediction"):
+        st.switch_page("pages/titanic-prediction.py")
 
 if __name__ == "__main__":
     main()
