@@ -23,13 +23,13 @@ classes = [1, 2, 3]
 
 for i, pclass in enumerate(classes):
     sns.boxplot(
-        x=df[df["Pclass"] == pclass]["Fare"],
+        y=df[df["Pclass"] == pclass]["Fare"],
         ax=axes[i],
         color="skyblue"
     )
     axes[i].set_title(f"Pclass {pclass}")
-    axes[i].set_xlabel("Fare")
-    axes[i].set_ylabel("")
+    axes[i].set_xlabel("")
+    axes[i].set_ylabel("Fare")
 
 # 显示图表
 st.pyplot(fig)
