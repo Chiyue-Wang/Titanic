@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.set_page_config(page_title="Welcome to the Titanic Model App")
+    st.set_page_config(page_title="Welcome to the Titanic Model App", page_icon="🚢")
     st.title("Titanic Model App")
     st.write(
         """
