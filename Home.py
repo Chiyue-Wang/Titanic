@@ -2,7 +2,7 @@ import streamlit as st
 
 def main():
     st.set_page_config(page_title="Welcome to the Titanic App 🚢🚢🚢", page_icon="🚢")
-    st.title("Titanic Model App")
+    st.title("Titanic Model App 🚢")
     st.write(
         """
         This simple web app allows you to **analyze** the Titanic dataset  
