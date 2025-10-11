@@ -11,3 +11,6 @@ st.write("""
 This simple web app allows you to **analyze** the Titanic dataset  
 and **predict** passenger survival probability using a trained model.
 """)
+
+if st.button("Go to Titanic App"):
+    st.switch_page("app.py")
